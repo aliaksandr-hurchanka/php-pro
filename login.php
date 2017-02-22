@@ -1,5 +1,5 @@
 <?php
-    require('./header.php');
+    require($_SERVER['DOCUMENT_ROOT'].'/header.php');
 ?>
 
 <body class="hold-transition login-page">
@@ -71,5 +71,5 @@
 </body>
 
 <?php
-    require('./footer.php');
+    require($_SERVER['DOCUMENT_ROOT'].'/footer.php');
 ?>

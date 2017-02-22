@@ -1,3 +1,3 @@
 <?php
-		require('login.php');
+		include $_SERVER['DOCUMENT_ROOT'].'/login.php';
 ?>
