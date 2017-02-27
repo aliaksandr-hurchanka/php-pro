@@ -1,0 +1,77 @@
+<?php
+
+
+function role_redirect_user_login(&$edit, $account, $form) {
+
+    // global $user;
+    //
+    // // drupal_set_message('<pre>' . print_r($form, TRUE) . '</pre>');
+    //
+    // // drupal_set_message('login ... ');
+    // if (in_array('administrator', $user->roles)) {
+    //     drupal_set_message('Вы имеете привелегии роли moderator_pro!');
+    //     $edit['redirect'] = 'node/123';
+    //     drupal_goto('page');
+    //     $_GET['destination'] = 'custom/page/of/your/choice';
+    //     // drupal_goto('/user');
+    //     // $form['#redirect'] = array('node/' . $form['#comment']->nid . '/comments');
+    //     // $_GET['destination'] = 'some-url';
+    // }
+
+    // if (!empty($edit)) {
+    //     // $_GET['destination'] = 'some-url';
+    //     drupal_set_message('$account');
+    // }
+}
+
+// function role_redirect_login_submit($form, &$form_state) {
+//   global $user;
+//   $user = user_load($form_state['uid']);
+//   $form_state['redirect'] = 'user/' . $user->uid;
+//
+//   user_login_finalize($form_state);
+// }
+
+// function mymodule_article_node_form_submit($form, &$form_state) {
+//   $form_state['redirect'] = 'my/super/page';
+// }
+
+// function hook_form_alter() {
+//   // $result = db_query('SELECT nid, foo FROM {mytable} WHERE nid IN(:nids)', array(':nids' => array_keys($nodes)));
+//   // foreach ($result as $record) {
+//   //   $nodes[$record->nid]->foo = $record->foo;
+//   // }
+//   var_dump(get_defined_vars());
+//   dpm();
+// }
+
+// function role_redirect_menu() {
+//     $items = array();
+//
+//     $items['role_redirect/hello_world'] = array(
+//         'title' => 'Hello World Test',
+//         'page callback' => 'say_hello_world',
+//         'access arguments' => array('access content'),
+//         'type' => MENU_CALLBACK,
+//      );
+//
+//     return $items;
+// }
+// //
+// function say_hello_world() {
+//     $vars = array();
+//     $vars['type']="ul";
+//     $vars['title'] = "";
+//     $vars['attributes']=array("");
+//     $vars['items'][0]="This is a simple proof of concept module";
+// dpm($form);
+//     return theme_item_list($vars);
+//
+//     // return dpm();
+//
+//     // return false;
+// }
+
+// function bootstrap_form_alter(&$form, &$form_state, $form_id) {
+//     // drupal_set_message('<pre>' . print_r($form, TRUE) . '</pre>');
+// }

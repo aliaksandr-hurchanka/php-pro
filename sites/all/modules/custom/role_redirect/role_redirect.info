@@ -1,0 +1,4 @@
+name = Role Redirect
+description = custom module for redirect on profile page
+version = 7.x-1.x-dev
+core = 7.x

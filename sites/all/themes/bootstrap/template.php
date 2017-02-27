@@ -49,6 +49,10 @@ function bootstrap_theme(&$existing, $type, $theme, $path) {
   return _bootstrap_theme($existing, $type, $theme, $path);
 }
 
+// function bootstrap_form_alter(&$form, &$form_state, $form_id) {
+//   drupal_set_message('<pre>' . print_r($form_state, TRUE) . '</pre>');
+// }
+
 /**
  * Clear any previously set element_info() static cache.
  *
