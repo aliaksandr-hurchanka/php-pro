@@ -58,6 +58,7 @@
 <head>
   <link rel="profile" href="<?php print $grddl_profile; ?>" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name='freelancehunt' content='66682dbc13c3205' />
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
@@ -66,6 +67,37 @@
     <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
   <?php print $scripts; ?>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter43633289 = new Ya.Metrika({
+                    id:43633289,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true,
+                    trackHash:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/43633289" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 </head>
 <body<?php print $body_attributes; ?>>
   <div id="skip-link">

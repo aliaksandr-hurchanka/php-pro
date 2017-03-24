@@ -122,6 +122,10 @@ settings[bootstrap_tooltip_trigger]['click'] = 0
 settings[bootstrap_tooltip_delay] = 0
 settings[bootstrap_tooltip_container] = 'body'
 
+; Customs Styles
+; --------------
+stylesheets[all][] = css/customs/custom.css
+
 ; Advanced
 ; --------------
 settings[bootstrap_cdn_provider] = 'jsdelivr'
